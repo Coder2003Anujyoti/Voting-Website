@@ -167,10 +167,9 @@ body{
   position:absolute;
   top:-8px;
   display:none;
-
+  z-index:1;
 }
-body{
-  background:url('T1.jpg');
+body{ 
   overflow:hidden;
 }
 #about
@@ -181,8 +180,9 @@ body{
   left:785px;
 }
 #abt
-{ width:700px;
-  height:400px;
-  display:none;
+{ width:1925px;
+  height:500px;
+ position:absolute;
+ left:-825px;
 }
 }
