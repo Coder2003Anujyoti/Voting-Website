@@ -49,7 +49,8 @@
   left:0px;
 }
 body{
-  overflow:hidden;
+  overflow-x:hidden;
+  overflow-y: scroll;
 }
 #abt
 { width:980px;
@@ -110,7 +111,7 @@ body{
 { color:white;
   position:absolute;
   top:50px;
-  left:350px;
+  left:300px;
   font-size:55px;
   text-decoration:underline;
 }
@@ -120,7 +121,7 @@ body{
   height:50px;
   position:absolute;
   top:410px;
-  left:-80px;
+  left:-160px;
   font-size:35px;
   font-weight:bolder;
   border-radius:10%;
@@ -154,10 +155,10 @@ body{
   left:0px;
 }
 #head
-{ font-size:115px;
+{ font-size:65px;
   color:white;
   position:absolute;
-  top:-70px;
+  top:-5px;
   left:450px;
 }
 #i2,#i3,#i4,#i5,#i6,#i7,#i8,#i1
