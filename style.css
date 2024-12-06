@@ -55,11 +55,11 @@
 }
 body{
   overflow-x:hidden;
-  overflow-y: scroll;
+  overflow-y:hidden;
 }
 #abt
 { width:980px;
-  height:1050px;
+  height:2050px;
 }
 #i2,#i3,#i4,#i5,#i6,#i7,#i8
 { width:980px;
